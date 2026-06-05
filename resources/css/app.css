@@ -9,3 +9,51 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+
+.hero-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; 
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.pill-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #e9ecef;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-custom {
+    background-color: #000000; /* Adjust to match your design button color */
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.btn-large {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+}
